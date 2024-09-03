@@ -1,7 +1,7 @@
-package My_Module
+package main
 
-import "fmt"
+import "github.com/PraveenRajPurak/My_Module"
 
-func Hello() {
-	fmt.Println("Hello World! My first Go Lang Module.")
+func main() {
+	My_Module.Hello()
 }
